@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032) -->
+<html><head lang="zh-Hant-TW">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+       雅敏有限公司
+    </title>
+    <style type="text/css">
+      body { padding-top: 49px; 
+             position:relative;}
+      p {font-size:18px;}
+
+      #contact {
+        height: 20px;
+        box-sizing: border-box;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <script>
+
+	$(document).ready(function() {
+      $(".navbar-nav li a").click(function(event) {    //navbar收起
+    if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+      }); //end navbar close
+
+      $(".anchor").click(function() {                   //錨點滑動效果
+        var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+        var offset = $($(this).attr("href")).offset();
+        offset = (offset ? offset.top : 0) + "px";
+        $body.animate({
+            scrollTop:  offset
+        }, {
+                duration: 300,
+                easing: "swing"
+          });
+
+        return false;
+        });               //end animate
+	}); // end readyfile
+
+    </script>
+
+</head>
+<body data-target="#navbar-spy" data-spy="scroll">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-spy">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+    <div class="navbar-header">
+      <a class="navbar-brand" href="" style="margin-top:-12px; font-size:30px; color:black; text-shadow:3px 3px 3px #cccccc;">
+      <img src="./asi_logo.png" alt="" width="50px" style="display:inline; vertical-align:-75%">雅敏有限公司
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a class="anchor" href="#">首頁</a></li>
+        <li><a class="anchor" href="#pr_1">花邊裁布機</a></li>
+        <li><a class="anchor" href="#pr_2">布樣圓切器</a></li>
+        <li><a class="anchor" href="#pr_3">電子布重秤</a></li>
+        <li><a class="anchor" href="#pr_4">指定合作</a></li>
+        <li><a class="anchor" href="#contact">聯絡我們</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item">
+      <img src="./index_0.jpg" align="middle" alt="Advertising slogan">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    <div class="item active">
+      <img src="./index_1.jpg" align="middle" alt="花邊裁布機">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="./index_2.jpg" alt="布樣圓切器">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="./index_3.jpg" alt="電子布重秤">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+ <!--
+    <div class="item">
+      <img src="./index_4.jpg" alt="布重秤">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+-->
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" align="center">
+          <img class="img-circle" src="./pr_1.jpg" style="width:140px;height:140px">
+          <h2>花邊裁布機</h2>
+          <p><a class="btn btn-default anchor" href="#pr_1" role="button">產品詳情 »</a>
+        </p></div>
+        <div class="col-md-4" align="center">
+          <img class="img-circle" src="./pr_2.jpg" style="width:140px;height:140px">
+          <h2>布樣圓切器</h2>
+          <p><a class="btn btn-default anchor" href="#pr_2" role="button">產品詳情 »</a>
+        </p></div>
+        <div class="col-md-4" align="center">
+          <img class="img-circle" src="./pr_3.jpg" style="width:140px;height:140px">
+          <h2>電子布重秤</h2>
+          <p><a class="btn btn-default anchor" href="#pr_3" role="button">產品詳情 »</a>
+        </p></div>
+  <!--
+        <div class="col-md-3" align="center">
+          <img class="img-circle" src="./pr_4.jpg" style="width:140px;height:140px">
+          <h2>布重秤</h2>
+          <p><a id="pr_1" class="btn btn-default anchor" href="#pr_4" role="button">產品詳情 »</a>
+        </p></div>
+-->
+    </div>
+    <hr class="featurette-divider">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5" align="center">
+          <img src="./pr_1-1.jpg">
+        </div>
+        <div class="col-md-7">
+          <div align="left">
+            <h2>ASI-202  花邊裁布機  Pinking Machine</h2>
+            <h3>精密機構 省力效果<br>PRECISE MECHANISM FOR EASY OPERATION</h3>
+            <p>精密製造的機器結構，使手動操作輕鬆省力，就是女性也容易使用。<br>
+                High precision manufactured mechanism enable even ladies to use this machine with ease.</p>
+
+            <h3>製作迅速 <br>PRODUCTIVITY</h3>
+            <p>一次可裁切厚度15mm(裁刀全幅)，省時省工，是鋸齒剪刀百倍速度，大幅提高人員生產力。<br>
+                    Simply stack fabrics and cut. Cutting thickness is up to 15mm at full length of blade.
+                    Productivity is hundred times of Pinking Shears.</p>
+
+            <h3>切口整齊漂亮<br>CLEAN &amp; NEAT</h3>
+            <p>裁切完成品的切口整齊且連續，不會有手剪時，鋸齒線不連續，以及裁剪歪斜等現象，也不會有手剪不銳利時產生的毛邊。<br>
+              The sample swatches cut by Pinking Machine will have STRAIGHT, CLEAN and NEAT edges, eliminate any Bur and
+              Incontinuity of pinking edges which always happen when
+              cut by Pinking Shears.</p><br>
+            <a id="pr_2" class="btn btn-info" href="pr_1.pdf" role="button"><i class="fas fa-file-pdf"></i> 下載型錄</a> &nbsp;
+            <a class="btn btn-info" href="https://youtu.be/igT74QjImj0" target="_blank" role="button"><i class="fab fa-youtube"></i> 裁切效果調整</a> &nbsp;
+            <a class="btn btn-info" href="https://youtu.be/hyObeveXDpE" target="_blank" role="button"><i class="fab fa-youtube"></i> 更換主動桿模組</a> &nbsp;
+            <a class="btn btn-info" href="https://youtu.be/fDMYPE-WIxY" target="_blank" role="button"><i class="fab fa-youtube"></i> 更換壓桿模組</a>
+            <div style="margin-left:1em">
+             <br>
+            <p style="color:indianred; text-indent:-1em">
+              ＊鋸齒刀、平刀同步販售中！<br>
+              Pinking blades & Flat blades are sold simultaneously.
+            </p>
+            <p style="color:indianred; text-indent:-1em">
+	      ＊裁刀與墊板皆為耗材，請定期更換以得到最佳裁切效果！<br>
+              Blades and cutting pads are consumables. Please replace periodically for best cutting performance!
+            </p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div align="left">
+            <h2>ASI-706 布樣圓切器 Circular Sample Cutter</h2>
+            <h3>快速容易<br>QUICK &amp; EASY</h3>
+            <p>布料(避免皺縮)放在切布軟墊上，壓下手鈕並旋轉超過90度，即可切取正確的100平方公分布樣，用以秤量布重。<br>
+                Place fabrics (avoid wrinkled) onto the cutting mat, press down hand wheel, rotate over 90 degrees under pressure, and you've got an accurate 100 cm2 sample for weighing.</p>
+
+
+            <h3>精密加工<br>PRECISE MACHINING</h3>
+            <p>圓切器是由精密車製的鋁合金圓盤，與鋼製刀片組成。三個圓盤精密配合，並經特殊處理，操作平滑順暢，長期使用絕不磨損或卡死。鋁盤底部接觸面的溝槽設計，可確實壓穩布樣，使切取樣品邊緣完美。<br>
+            The cutter is made of precisely lathe machined circular disks of aluminum alloy and steel blades. Three circular disks are precisely fitted and specially processed for extremely smooth operation, never worn or stuck for long. At the bottom of disks, grooves design keeps fabrics firm, and samples cut off with clean and neat edges.</p><br>
+            <a id="pr_3" class="btn btn-info" href="pr_2.pdf" role="button"><i class="fas fa-file-pdf"></i> 下載型錄</a> &nbsp;
+            <a class="btn btn-info" href="https://youtu.be/k9RxLQwFhbY" target="_blank" role="button"><i class="fab fa-youtube"></i> 更換刀片</a>
+
+
+            <div style="margin-left:1em">
+             <br>
+             <p style="color:indianred; text-indent:-1em">
+	       ＊裁刀與軟墊皆為耗材，請定期更換以得到最佳裁切效果！<br>
+               Blades and cutting mats are consumables. Please replace periodically for best cutting performance!
+             </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5" align="center">
+          <img src="./pr_2-1.jpg">
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5" align="center">
+          <img src="./pr_3-1.jpg">
+        </div>
+        <div class="col-md-7">
+          <div align="left">
+            <h2>ASI-708 電子布重秤 Electronic Cloth Balance</h2>
+
+            <h3>多種計量 自動換算<br>MULTI-MEASUREMENT &amp; AUTOMATIC CALCULATION </h3>
+            <p>切取布樣100平方公分放在秤盤上，立即得知 "實際重量" 與 "每平方米公克"。輸入幅寬，可同時顯示 "全幅寬每碼長公克"，亦可切換為 "每平方碼英兩(盎司)" (牛仔布常用)。任何幅寬(英吋)皆可按鍵輸入，自動換算，完全不須再使用計算機。多種計量方式適合各種需求。<br>
+              Cut 100 cm2 fabric sample and put it on Scale Pan, you can get “Actual weight” and “Grams per square meter” (Actual weight x 100, 1 m2 =10,000 cm2 = 100 x 100 cm2). Just key-in the fabric’s breadth, the Balance will simultaneously show “full-breadth grams per yard”. It also can be changed to “Ounces per square yard” (frequently used with JEAN). Any breadth (inches) can be key-in and automatically calculated. Calculator is no longer needed. Multi-measurement meets all demands.</p>
+
+            <h3>大容量與精密感量<br>LARGE CAPACITY &amp; PRECISE RESOLUTION</h3>
+            <p>最大可秤重量為500公克(17.64英兩)，換算最大布重達50,000公克/每平方米(1,473英兩/每平方碼，或69,667公克/每碼長-60英吋幅寬)，可秤任何種類布料，甚至地毯。待秤樣品若重量為150公克以下，感量為0.01公克(0.0005英兩)，換算布重誤差為1公克/每平方米(0.04英兩/每平方碼)，精確可靠。[待測物為150至500公克時，感量為0.02公克(0.001英兩)]<br>
+              Maximum actual weight capacity is 500 grams(17.64 oz). The scale is capable for all kinds of fabrics of up to 50,000 grams per square meter (1,473 Oz/yd2, or 69,667 g/yd-60”breadth), even carpet. When samples of weighting under 150 grams, the resolution is 0.01 gram (0.0005 oz), comes to fabrics of 1 g/m2 (0.04 Oz/yd2) precise tolerance.[When samples of weighting between 150 grams to 500 grams, the resolution is 0.02 gram (0.001 oz), comes to fabrics of 2 g/m2 (0.08 Oz/yd2)]</p><br>
+               <a id="pr_4" class="btn btn-info" href="pr_3.pdf" role="button"><i class="fas fa-file-pdf"></i> 下載型錄</a>
+          </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="container">
+      <h2>指定合作 Our Partners</h2>
+      <br/>
+      <div class="row" style="height:100px">
+        <div class="col-md-3">
+          <img src="./C-Logo_NanYa.svg" style="width:250px">
+	  </div>
+        <div class="col-md-3">
+          <img src="./C-Logo_Eclat.png" style="width:250px">
+	  </div>
+        <div class="col-md-3">
+          <img src="./C-Logo_FarEasternNewCentry.png" style="width:300px">
+        </div>
+        <div class="col-md-3">
+          <img src="./C-Logo_ChaniTex.png" style="width:250px">
+	  </div>
+      </div>
+      <div class="row" style="height:100px">
+        <div class="col-md-9">
+          <img src="./C-Logo_ShinKongTextile.png" style="width:800px">
+	   </div>
+        <div class="col-md-3">
+          <img src="./C-logo_TTRI.png" style="width:250px">
+	   </div>
+      </div>
+      <div class="row" style="height:100px">
+        <div class="col-md-3">
+          <img src="./C-Logo_TTF.png" style="width:250px">
+        </div>
+        <div class="col-md-3">
+          <img src="./C-logo_LiPeng.png" style="width:300px">
+        </div>
+        <div class="col-md-2">
+          <img src="./C-logo_Sheico.png" style="width:220px">
+	   </div>
+        <div class="col-md-3">
+          <img src="./C-Logo_NienHsing.png" style="width:350px">
+        </div>
+     </div>
+      <div class="row" style="height:100px">
+        <div class="col-md-2">
+          <img src="./C-Logo_Everest.svg" style="width:150px">
+        </div>
+        <div class="col-md-5">
+          <img src="./C-Logo_Makalot.jpg" style="width:400px">
+        </div>
+        <div class="col-md-4">
+          <img src="./C-Logo_Sabrina.png" style="width:250px">
+        </div>
+     </div>
+      <br/>
+      <h1>...ETC.</h1>
+
+
+    </div>
+<!--
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div align="left">
+            <h2> ASI-704 布重秤 Cloth Balance</h2>
+            <h3>精確可靠<br>ACCURATE AND RELIABLE</h3>
+            <p>經由精密天秤校對，精度高，秤重可靠。指針轉動軸為不鏽鋼精密研磨，表面粗度0.4S以下，磨擦小，靈敏度高。<br>
+                Carefully calibrated with PRECISE BALANCE, you can rely on what you weigh. The shaft of pointer is made of precisely grinded stainless steel with surface roughness down to under 0.4S. Little friction makes high sensitivity.</p>
+
+            <h3>快速平衡<br>RAPIDLY GET REST</h3>
+            <p>機械式吊秤可立即平衡，立即讀取，比起電子秤之來回跳動，可節省很多時間。<br>
+              Mechanical Balance get rest immediately for read-off, you can save a lot of time compare with waiting for the digits swinging about of the electronic balance.</p>
+
+            <h3>永久耐用<br>DURABLE ALL THE TIME</h3>
+            <p>除少數必需彈簧鐵片之外，全不鏽鋼結構，以及蝕刻上墨，美觀易讀的精密刻度，經久耐用。<br>
+                All stainless structure, except few necessary spring materials, and the easy read, engraved and colored precise scales, ensure durability all the time.</p><br>
+               <a class="btn btn-info" href="pr_4.pdf" role="button"><i class="fas fa-file-pdf"></i> 下載型錄</a>
+          </div>
+        </div>
+        <div class="col-md-5" align="center">
+          <img src="./pr_4-1.jpg">
+        </div>
+    </div>
+-->
+    <hr class="featurette-divider">
+    <footer id="contact">
+      <div class="col-md-6">
+      <!--
+      <p class="text-muted"> 雅敏有限公司 Arben System Industries<br> Phone: (886-2)2218-3545  &nbsp; Fax: 2218-3547 <br>台灣23148新北市新店區中正路四維巷2弄11號3樓  <br>
+      3F., No.11, Alley 2, Siwei Lane, Zhongzheng Road, Shindian, New Taipei 23148, Taiwan</p>
+      -->
+      <div style="text-align:left; margin-left:1em">
+       <h4 class="text-muted" style="text-indent:-1em"> 雅敏有限公司 ARBEN SYSTEM INDUSTRIES, INC.</h4>
+       <p class="text-muted" style="text-indent:-1em"><i class="fa fa-phone"></i>&nbsp;(886-2)2218-3545</p>
+       <p class="text-muted" style="text-indent:-1em"><i class="fa fa-print"></i>&nbsp;(886-2)2218-3547</p>
+       <p class="text-muted" style="text-indent:-1em"><i class="fas fa-envelope-open-text"></i>&nbsp;dozzko+arben@gmail.com</p>
+       <p class="text-muted" style="text-indent:-1em"><i class="fas fa-map-marker-alt"></i>&nbsp;台灣23148新北市新店區中正路四維巷2弄11號3樓<br>
+       3F., No.11, Alley 2, Siwei Lane, Zhongzheng Road, Shindian, New Taipei 23148, Taiwan</p>
+       <p style="text-indent:-1em">
+       <a href="https://www.youtube.com/channel/UCmc1LdIANf4kqQrPeMOAm4A" target="blank"><i class="fab fa-youtube fa-3x" style="color: red"></i></a>
+       <a href="https://lin.ee/wdRMWCa" target="blank"><i class="fab fa-line fa-3x" style="color: #00B900"></i></a>
+       <a href="https://www.facebook.com/arbensystemindustry" target="blank"><i class="fab fa-facebook fa-3x" style="color: #3b5998"></i></a>
+       </p>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      </div>
+<!--Google map-->
+<div class="col-md-6" id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.4545026919427!2d121.5324827368495!3d24.984667633587616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468020231493dff%3A0x43d872d56afb445c!2z6ZuF5pWP5pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1599618541322!5m2!1szh-TW!2stw" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+<!--Google Maps-->
+    </footer>
+    </div>
+
+
+
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->
+</body></html>
